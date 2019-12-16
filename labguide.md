@@ -61,7 +61,7 @@ Now add the following resources;
 * Virtual Network (VNET)
 * Subnet
 * Public IP Address (PIP)
-  * Make sure the domain-name-label is set to on2it-meetup-lab*XX*-1, i.e. on2it-meetup-lab01-1
+  * Make sure the domain-name-label is set to on2it-meetup-lab*XX*, i.e. on2it-meetup-lab01-1
 * Network Security Group (NSG) 
   * Make sure port 22 is allowed from 188.207.248.162 (if you're not on the guest-wifi, add your IP address too)
   * Make sue to connect the NSG to either the subnet or the NIC, otherwise no external traffic will be allowed.
